@@ -10,8 +10,29 @@
     "__resolveType": "site/sections/Footer.tsx",
     "links": [],
     "bottomLinks": [],
-    "social": [],
-    "subscribe": {}
+    "social": [
+      {
+        "network": "Instagram",
+        "href": "https://www.instagram.com/belmrs/?hl=pt"
+      },
+      {
+        "network": "Linkedin",
+        "href": "https://www.linkedin.com/in/beatrizlimaramos/"
+      }
+    ],
+    "subscribe": {
+      "instructions": "<p></p><p></p>",
+      "description": "I will let you know everytime there is I new trip post",
+      "title": "Subscribe"
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8d5c24d9-f815-4f53-b597-ff8a083d0d1b"
+    },
+    "madeWith": {
+      "label": "Made with",
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/86abde50-1450-466b-a197-36d3553cf54d",
+      "href": "deco.cx"
+    }
   },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -55,6 +76,9 @@
     "navigation": {
       "links": [],
       "buttons": []
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8f0e72e2-3747-4f19-b8be-e0a3ef49b3df"
     }
   },
   "Neutral": {
@@ -334,14 +358,7 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx",
-        "navigation": {
-          "links": [],
-          "buttons": []
-        },
-        "logo": {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8f0e72e2-3747-4f19-b8be-e0a3ef49b3df"
-        }
+        "__resolveType": "Header"
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
@@ -366,32 +383,7 @@
         }
       },
       {
-        "__resolveType": "site/sections/Footer.tsx",
-        "subscribe": {
-          "instructions": "<p></p><p></p>",
-          "description": "I will let you know everytime there is I new trip post",
-          "title": "Subscribe"
-        },
-        "logo": {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8d5c24d9-f815-4f53-b597-ff8a083d0d1b"
-        },
-        "social": [
-          {
-            "network": "Instagram",
-            "href": "https://www.instagram.com/belmrs/?hl=pt"
-          },
-          {
-            "network": "Linkedin",
-            "href": "https://www.linkedin.com/in/beatrizlimaramos/"
-          }
-        ],
-        "madeWith": {
-          "label": "Made with",
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/86abde50-1450-466b-a197-36d3553cf54d",
-          "href": "deco.cx"
-        },
-        "bottomLinks": [],
-        "links": []
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
@@ -399,7 +391,7 @@
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "type": "website"
     },
-    "name": "Minhas Viagens"
+    "name": "Home"
   },
   "site": {
     "__resolveType": "site/apps/site.ts",
@@ -463,5 +455,35 @@
     "bottomLinks": [],
     "social": [],
     "subscribe": {}
+  },
+  "analytics": {
+    "__resolveType": "decohub/apps/analytics.ts"
+  },
+  "pages-Who%20am%20I%3F-84898": {
+    "name": "Who am I?",
+    "path": "/myself-path",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "site/sections/BlogPost.tsx",
+        "post": {
+          "__resolveType": "blog/loaders/BlogPostItem.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        },
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": "Post 1"
+        }
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
