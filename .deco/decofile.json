@@ -21,12 +21,12 @@
       }
     ],
     "subscribe": {
-      "instructions": "<p></p><p></p>",
-      "description": "I will let you know everytime there is I new trip post",
+      "instructions": "<p></p>",
+      "description": "I will let you know everytime there is a new trip post here...",
       "title": "Subscribe"
     },
     "logo": {
-      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8d5c24d9-f815-4f53-b597-ff8a083d0d1b"
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8a77e866-46af-4be9-a8f0-1949f51c49d8"
     },
     "madeWith": {
       "label": "Made with",
@@ -78,8 +78,15 @@
       "buttons": []
     },
     "logo": {
-      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8f0e72e2-3747-4f19-b8be-e0a3ef49b3df"
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/0a931a3a-bc70-42ec-98b0-918150d0f4f5"
     }
+  },
+  "Minhas Viagens": {
+    "__resolveType": "site/sections/Footer.tsx",
+    "links": [],
+    "bottomLinks": [],
+    "social": [],
+    "subscribe": {}
   },
   "Neutral": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -119,7 +126,14 @@
     }
   },
   "Preview /sections/BlogPost.tsx": {
-    "__resolveType": "site/sections/BlogPost.tsx"
+    "__resolveType": "site/sections/BlogPost.tsx",
+    "page": {
+      "@type": "BlogPostPage",
+      "post": {
+        "authors": [],
+        "categories": []
+      }
+    }
   },
   "Preview /sections/BlogPosts.tsx": {
     "__resolveType": "site/sections/BlogPosts.tsx",
@@ -161,6 +175,9 @@
   },
   "Preview /sections/Testimonials.tsx": {
     "__resolveType": "site/sections/Testimonials.tsx"
+  },
+  "Preview site/sections/BlogPost.tsx": {
+    "__resolveType": "site/sections/BlogPost.tsx"
   },
   "Preview site/sections/Hero.tsx": {
     "__resolveType": "site/sections/Hero.tsx"
@@ -276,31 +293,104 @@
       ]
     }
   },
+  "analytics": {
+    "__resolveType": "decohub/apps/analytics.ts"
+  },
   "blog": {
     "__resolveType": "decohub/apps/blog.ts"
   },
-  "collections/blog/categories/295e9e7730f9": {
-    "name": "collections/blog/categories/295e9e7730f9",
-    "__resolveType": "blog/loaders/Category.ts",
-    "category": {
-      "name": "Customization",
-      "slug": "customization"
+  "collections/blog/authors/184c0799a4b8": {
+    "name": "collections/blog/authors/184c0799a4b8",
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Beatriz Lima Ramos",
+      "email": "beatrizlimaramos123@gmail.com",
+      "jobTitle": "Financial Analyst",
+      "company": "deco.cx",
+      "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/84c29e08-51d6-426d-a0d2-4d3958f84659"
     }
   },
-  "collections/blog/categories/339e1eb309dd": {
-    "name": "collections/blog/categories/339e1eb309dd",
+  "collections/blog/categories/6dea93856583": {
+    "name": "collections/blog/categories/6dea93856583",
     "__resolveType": "blog/loaders/Category.ts",
     "category": {
-      "name": "Culture",
-      "slug": "culture"
+      "name": "Africa",
+      "slug": "africa"
     }
   },
-  "collections/blog/categories/dd2398d80ec6": {
-    "name": "collections/blog/categories/dd2398d80ec6",
+  "collections/blog/categories/b104155e5a9c": {
+    "name": "collections/blog/categories/b104155e5a9c",
     "__resolveType": "blog/loaders/Category.ts",
     "category": {
-      "name": "Performance",
-      "slug": "performance"
+      "name": "Introduction",
+      "slug": "introduction"
+    }
+  },
+  "collections/blog/categories/c626704785c8": {
+    "name": "collections/blog/categories/c626704785c8",
+    "__resolveType": "blog/loaders/Category.ts",
+    "category": {
+      "name": "Trips",
+      "slug": "trips"
+    }
+  },
+  "collections/blog/categories/d16434538705": {
+    "name": "collections/blog/categories/d16434538705",
+    "__resolveType": "blog/loaders/Category.ts",
+    "category": {
+      "name": "Beach",
+      "slug": "beach"
+    }
+  },
+  "collections/blog/categories/ebe6770e1236": {
+    "name": "collections/blog/categories/ebe6770e1236",
+    "__resolveType": "blog/loaders/Category.ts",
+    "category": {
+      "name": "Mountains",
+      "slug": "mountains"
+    }
+  },
+  "collections/blog/categories/ef26f56a9a32": {
+    "name": "collections/blog/categories/ef26f56a9a32",
+    "__resolveType": "blog/loaders/Category.ts",
+    "category": {
+      "name": "America",
+      "slug": "america"
+    }
+  },
+  "collections/blog/categories/f97d3d30b738": {
+    "name": "collections/blog/categories/f97d3d30b738",
+    "__resolveType": "blog/loaders/Category.ts",
+    "category": {
+      "name": "Europe",
+      "slug": "europe"
+    }
+  },
+  "collections/blog/posts/e2cc1e902b8b": {
+    "name": "collections/blog/posts/e2cc1e902b8b",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Beatriz Lima Ramos",
+          "email": "beatrizlimaramos123@gmail.com",
+          "jobTitle": "Financial Analyst",
+          "company": "deco.cx",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/84c29e08-51d6-426d-a0d2-4d3958f84659"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Introduction",
+          "slug": "introduction"
+        }
+      ],
+      "title": "Who am I?",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/3a4e18af-cbab-48a0-a1e7-d2c1486cac92",
+      "date": "2024-04-29",
+      "slug": "myself-path",
+      "content": "<p>Primeira vez por aqui?</p><p>Bom, vou me apresentar então: sou a Bia, mas alguns me chamam de Bahia (haha já explico o porquê).</p><p>Nascida e criada no interior da Bahia, tenho muito orgulho de ser nordestina e carregar toda essa história comigo para todos os lugares onde vou. Tive a oportunidade de me mudar para São Paulo em 2019 parara estudar e desde então sou um pouquinho apaixonada por essa cidade também.</p><p>Faço Engenharia de Minas na Escola Politécnica da USP e estou, atualmente, num programa de Duplo Diploma na Politecnico di Milano, em Milão na Itália, cursando Management Engineering.</p><p></p><h3><strong>Por que eu me apresento como Bahia?</strong></h3><p>Por algum motivo que eu não sei dizer, muitas pessoas nascidas por volta de 2000 chamam Beatriz. Por isso, é comum chegar aos lugares e não ser a primeira Beatriz... Quando entrei na faculdade, na minha sala, na empresa júnior e no handball já tinham outras Beatrizes, comecei então a me auto apresentar como Bahia. Hoje é uma coisa que me deixa de coração quentinho, sempre me lembra das minhas origens e do que eu mais admiro e amo nesse mundo... minha família!</p><p></p><h3><strong>O que significa \"Tourbah\"?</strong></h3><p>Quando eu estava pensando sobre qual nome dar pra essa brincadeira de blog, queria muito que fosse algo que me representasse, mas também algo que eu conseguisse soar legal ao ler e falar. </p><p>Então pensei em \"tour\" e \"bahia\" e ficou assim.</p><p></p><p><img src=\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/0e3f6d5e-54ca-4b57-b755-3581ff4b4db3\"></p><p>Meu maior objetivo é que esse seja um espaço aberto para eu compartilhar minhas experiências e servir também de recordação pra Bahia do futuro. Pretendo contar aqui review das minhas viagens, passeios, passagens e hospedagens. Deixar fotos e vídeos de recordação.</p><p></p><p>Sinta-se sempre a vontade pra entrar em contato comigo caso queira trocar uma ideia sobre turismo e lazer, dar recomendações ou até pedir dicas.</p><p></p><p>Nos vemos por ai! Até o próximo post &lt;3</p><p></p><p></p><p></p>",
+      "excerpt": "Sou uma baiana descobrindo esse mundão!"
     }
   },
   "decohub": {
@@ -319,7 +409,7 @@
     "path": "/blog/:slug",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx"
+        "__resolveType": "Header"
       },
       {
         "__resolveType": "site/sections/BlogPost.tsx",
@@ -339,7 +429,7 @@
         }
       },
       {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
@@ -354,6 +444,33 @@
       }
     }
   },
+  "pages-Who%20am%20I%3F-84898": {
+    "name": "Who am I?",
+    "path": "myself-path",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "site/sections/BlogPost.tsx",
+        "post": {
+          "__resolveType": "blog/loaders/BlogPostItem.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        },
+        "page": {
+          "__resolveType": "blog/loaders/BlogPostPage.ts",
+          "slug": "myself-path"
+        }
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-home-5afd25174424": {
     "path": "/",
     "sections": [
@@ -362,14 +479,14 @@
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p><strong>Adventure Passport</strong></p>",
-        "description": "Sharing a lit bit of my trips during the past years"
+        "title": "<p>Adventure Passport</p>",
+        "description": "Sharing a lit bit of my trips during the past years with anyone that is interested"
       },
       {
         "__resolveType": "site/sections/MainPost.tsx",
         "post": {
           "__resolveType": "blog/loaders/BlogPostItem.ts",
-          "slug": "/myself-path"
+          "slug": "myself-path"
         }
       },
       {
@@ -380,7 +497,8 @@
         },
         "cta": {
           "text": "My trips"
-        }
+        },
+        "pagination": {}
       },
       {
         "__resolveType": "Footer"
@@ -421,69 +539,5 @@
     "theme": {
       "__resolveType": "Neutral"
     }
-  },
-  "collections/blog/authors/184c0799a4b8": {
-    "name": "collections/blog/authors/184c0799a4b8",
-    "__resolveType": "blog/loaders/Author.ts",
-    "author": {
-      "name": "Beatriz Lima Ramos",
-      "email": "beatrizlimaramos123@gmail.com"
-    }
-  },
-  "collections/blog/posts/e2cc1e902b8b": {
-    "name": "collections/blog/posts/e2cc1e902b8b",
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Beatriz Lima Ramos",
-          "email": "beatrizlimaramos123@gmail.com"
-        }
-      ],
-      "categories": [],
-      "title": "Who am I?",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/00b2d51b-9975-4eea-9758-58ece14526a6",
-      "date": "2024-04-29",
-      "slug": "/myself-path",
-      "content": "<p>Sou uma baiana descobrindo esse mundão!</p><p>Meu nome é beatriz ramos</p>",
-      "excerpt": "Meu nome é beatriz ramos"
-    }
-  },
-  "Minhas Viagens": {
-    "__resolveType": "site/sections/Footer.tsx",
-    "links": [],
-    "bottomLinks": [],
-    "social": [],
-    "subscribe": {}
-  },
-  "analytics": {
-    "__resolveType": "decohub/apps/analytics.ts"
-  },
-  "pages-Who%20am%20I%3F-84898": {
-    "name": "Who am I?",
-    "path": "/myself-path",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/BlogPost.tsx",
-        "post": {
-          "__resolveType": "blog/loaders/BlogPostItem.ts",
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
-          }
-        },
-        "page": {
-          "__resolveType": "blog/loaders/BlogPostPage.ts",
-          "slug": "Post 1"
-        }
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
   }
 }
