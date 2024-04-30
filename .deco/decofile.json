@@ -539,5 +539,52 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "pages-Trips-200307": {
+    "name": "Trips",
+    "path": "/trips-path",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>TRIPS</p>",
+        "description": "Here you can find some of my trip experiences during the last years"
+      },
+      {
+        "__resolveType": "site/sections/MainPost.tsx",
+        "post": {
+          "__resolveType": "blog/loaders/BlogPostItem.ts",
+          "slug": "dolomitas-path"
+        }
+      },
+      {
+        "__resolveType": "Footer"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "collections/blog/posts/862c8d3fe46c": {
+    "name": "collections/blog/posts/862c8d3fe46c",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [
+        {
+          "name": "Beatriz Lima Ramos",
+          "email": "beatrizlimaramos123@gmail.com",
+          "jobTitle": "Financial Analyst",
+          "company": "deco.cx",
+          "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/84c29e08-51d6-426d-a0d2-4d3958f84659"
+        }
+      ],
+      "categories": [],
+      "date": "2024-04-30",
+      "slug": "dolomitas-path",
+      "content": "<p>Dolomitas foi incrivel</p><p></p>",
+      "excerpt": "Dolomitas",
+      "title": "Dolomitas",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/c52452c2-31d2-4dac-8d99-3220bf4cafeb"
+    }
   }
 }
