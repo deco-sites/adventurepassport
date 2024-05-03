@@ -22,8 +22,8 @@
     ],
     "subscribe": {
       "instructions": "<p></p>",
-      "description": "I will let you know everytime there is a new trip post here...",
-      "title": "Subscribe"
+      "description": "Eu te aviso sempre que tiver post novo por aqui...",
+      "title": "Inscreva-se"
     },
     "logo": {
       "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/8a77e866-46af-4be9-a8f0-1949f51c49d8"
@@ -540,7 +540,7 @@
       {
         "__resolveType": "site/sections/Hero.tsx",
         "title": "<p>Adventure Passport</p>",
-        "description": "Sharing a lit bit of my trips during the past years with anyone that is interested"
+        "description": "Compartilhando um pouquinho das minhas viagens e experiências com todos que se interessarem!"
       },
       {
         "__resolveType": "site/sections/MainPost.tsx",
