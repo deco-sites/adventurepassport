@@ -1,0 +1,30 @@
+{
+  "name": "collections/blog/posts/bf68803b28d5",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Beatriz Lima Ramos",
+        "email": "beatrizlimaramos123@gmail.com",
+        "jobTitle": "Financial Analyst",
+        "company": "deco.cx",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8497/84c29e08-51d6-426d-a0d2-4d3958f84659"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Viagens",
+        "slug": "trips"
+      },
+      {
+        "name": "Europa",
+        "slug": "europe"
+      }
+    ],
+    "title": "Paris",
+    "excerpt": "paris",
+    "slug": "paris",
+    "date": "2024-05-18",
+    "content": "<p>Ola</p><p>Paris foi incrível</p>"
+  }
+}
